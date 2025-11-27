@@ -5,11 +5,6 @@
 
 An interactive 3D visualization that maps Beethoven's Symphony No. 7 as spatial architecture, using real orchestral score data to create a unique audio-visual experience.
 
-## 🎼 Live Demo
-
-[View Live Demo](#) *(Add your GitHub Pages link here)*
-
-![Preview](screenshots/overview.png)
 
 ## ✨ Features
 
