@@ -71,22 +71,6 @@ python -m http.server 8000
 # Then open: http://localhost:8000/beethoven_symphony_real_score.html
 ```
 
-## 📂 Project Structure
-
-```
-beethoven-symphony-3d/
-├── beethoven_symphony_real_score.html    # Main visualization
-├── beethoven_symphony_7_mvt1__2_.json    # Orchestral score data (45 notes)
-├── beethoven_symphony_7.mp3              # Audio file (21MB)
-├── README.md                             # This file
-├── START_HERE.txt                        # Quick start guide
-├── README_REAL_SCORE.txt                 # Technical documentation
-└── screenshots/                          # Preview images
-    ├── overview.png
-    ├── angle1.png
-    ├── angle2.png
-    └── top_view.png
-```
 
 ## 🎮 Controls
 
