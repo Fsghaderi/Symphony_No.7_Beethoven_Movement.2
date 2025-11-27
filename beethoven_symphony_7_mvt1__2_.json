@@ -1,0 +1,959 @@
+{
+  "format": "MusicJSON",
+  "version": "1.0",
+  "source": {
+    "file": "IMSLP06800-Beethoven_-_Symphony_No_7_Mvt_I__ed__Unger_.pdf",
+    "editor": "Max Unger",
+    "pages": 176,
+    "extraction_method": "manual_transcription",
+    "extraction_note": "Opening measures transcribed from scanned score"
+  },
+  "metadata": {
+    "title": "Symphony No. 7 in A Major",
+    "subtitle": "Movement I",
+    "composer": {
+      "name": "Ludwig van Beethoven",
+      "dates": "1770-1827"
+    },
+    "opus": 92,
+    "key": "A major",
+    "timeSignatures": [
+      {
+        "measure": 1,
+        "numerator": 4,
+        "denominator": 4
+      },
+      {
+        "measure": 63,
+        "numerator": 6,
+        "denominator": 8
+      }
+    ],
+    "keySignature": {
+      "fifths": 3,
+      "mode": "major"
+    },
+    "tempoMarkings": [
+      {
+        "measure": 1,
+        "text": "Poco sostenuto",
+        "bpm": 69,
+        "beatUnit": "quarter"
+      },
+      {
+        "measure": 63,
+        "text": "Vivace",
+        "bpm": 104,
+        "beatUnit": "dotted-half"
+      }
+    ]
+  },
+  "parts": [
+    {
+      "id": "P1",
+      "name": "Flute 1, 2",
+      "abbreviation": "Fl.",
+      "instrument": {
+        "name": "Flute",
+        "family": "woodwind",
+        "transposition": "C"
+      },
+      "staff": {
+        "clef": "treble"
+      },
+      "measures": [
+        {
+          "number": 1,
+          "events": [
+            {
+              "type": "note",
+              "pitch": "E5",
+              "duration": "quarter",
+              "dynamic": "f",
+              "articulation": "staccato",
+              "beat": 1
+            },
+            {
+              "type": "rest",
+              "duration": "dotted-half",
+              "beat": 2
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "events": [
+            {
+              "type": "note",
+              "pitch": "E5",
+              "duration": "quarter",
+              "dynamic": "f",
+              "beat": 1
+            },
+            {
+              "type": "rest",
+              "duration": "dotted-half",
+              "beat": 2
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "events": [
+            {
+              "type": "rest",
+              "duration": "whole",
+              "beat": 1
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "events": [
+            {
+              "type": "note",
+              "pitch": "E5",
+              "duration": "quarter",
+              "dynamic": "f",
+              "beat": 1
+            },
+            {
+              "type": "rest",
+              "duration": "dotted-half",
+              "beat": 2
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "events": [
+            {
+              "type": "note",
+              "pitch": "D5",
+              "duration": "half",
+              "dynamic": "p",
+              "beat": 1
+            },
+            {
+              "type": "note",
+              "pitch": "E5",
+              "duration": "quarter",
+              "beat": 3
+            },
+            {
+              "type": "note",
+              "pitch": "F#5",
+              "duration": "eighth",
+              "beat": 4
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "events": [
+            {
+              "type": "note",
+              "pitch": "E5",
+              "duration": "whole",
+              "tie": "start",
+              "dynamic": "fp",
+              "beat": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P2",
+      "name": "Oboe 1, 2",
+      "abbreviation": "Ob.",
+      "instrument": {
+        "name": "Oboe",
+        "family": "woodwind",
+        "transposition": "C"
+      },
+      "staff": {
+        "clef": "treble"
+      },
+      "measures": [
+        {
+          "number": 1,
+          "events": [
+            {
+              "type": "note",
+              "pitch": "C#5",
+              "duration": "quarter",
+              "dynamic": "fp",
+              "beat": 1
+            },
+            {
+              "type": "rest",
+              "duration": "quarter",
+              "beat": 2
+            },
+            {
+              "type": "note",
+              "pitch": "D5",
+              "duration": "eighth",
+              "beat": 3
+            },
+            {
+              "type": "note",
+              "pitch": "E5",
+              "duration": "eighth",
+              "dynamic": "fp",
+              "beat": 3.5
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "events": [
+            {
+              "type": "chord",
+              "pitches": [
+                "E5",
+                "G#5"
+              ],
+              "duration": "half",
+              "dynamic": "fp",
+              "beat": 1
+            },
+            {
+              "type": "rest",
+              "duration": "half",
+              "beat": 3
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "events": [
+            {
+              "type": "note",
+              "pitch": "A5",
+              "duration": "half",
+              "dynamic": "fp",
+              "beat": 1
+            },
+            {
+              "type": "rest",
+              "duration": "half",
+              "beat": 3
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "events": [
+            {
+              "type": "run",
+              "pitches": [
+                "E5",
+                "F#5",
+                "G#5",
+                "A5",
+                "B5",
+                "C#6",
+                "D6",
+                "E6"
+              ],
+              "duration": "eighth-each",
+              "beat": 2,
+              "dynamic": "fp"
+            },
+            {
+              "type": "chord",
+              "pitches": [
+                "E5",
+                "G#5"
+              ],
+              "duration": "half",
+              "beat": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P3",
+      "name": "Clarinet 1, 2 in A",
+      "abbreviation": "Cl.",
+      "instrument": {
+        "name": "Clarinet",
+        "family": "woodwind",
+        "transposition": "A"
+      },
+      "staff": {
+        "clef": "treble"
+      },
+      "measures": [
+        {
+          "number": 1,
+          "events": [
+            {
+              "type": "note",
+              "pitch": "G4",
+              "duration": "quarter",
+              "written_pitch": true,
+              "dynamic": "f",
+              "beat": 1
+            },
+            {
+              "type": "rest",
+              "duration": "dotted-half",
+              "beat": 2
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "events": [
+            {
+              "type": "run",
+              "pitches": [
+                "G4",
+                "A4",
+                "B4",
+                "C#5",
+                "D5",
+                "E5",
+                "F#5",
+                "G5"
+              ],
+              "duration": "eighth-each",
+              "dynamic": "fp",
+              "beat": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P4",
+      "name": "Bassoon 1, 2",
+      "abbreviation": "Fg.",
+      "instrument": {
+        "name": "Bassoon",
+        "family": "woodwind",
+        "transposition": "C"
+      },
+      "staff": {
+        "clef": "bass"
+      },
+      "measures": [
+        {
+          "number": 1,
+          "events": [
+            {
+              "type": "note",
+              "pitch": "E3",
+              "duration": "quarter",
+              "dynamic": "f",
+              "articulation": "staccato",
+              "beat": 1
+            },
+            {
+              "type": "rest",
+              "duration": "dotted-half",
+              "beat": 2
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "events": [
+            {
+              "type": "note",
+              "pitch": "E3",
+              "duration": "quarter",
+              "dynamic": "f",
+              "beat": 1
+            },
+            {
+              "type": "rest",
+              "duration": "dotted-half",
+              "beat": 2
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "events": [
+            {
+              "type": "note",
+              "pitch": "D3",
+              "duration": "quarter",
+              "beat": 1
+            },
+            {
+              "type": "rest",
+              "duration": "quarter",
+              "beat": 2
+            },
+            {
+              "type": "note",
+              "pitch": "E3",
+              "duration": "half",
+              "dynamic": "fp",
+              "beat": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P5",
+      "name": "Horn 1, 2 in A",
+      "abbreviation": "Cor.",
+      "instrument": {
+        "name": "Horn",
+        "family": "brass",
+        "transposition": "A"
+      },
+      "staff": {
+        "clef": "treble"
+      },
+      "measures": [
+        {
+          "number": 1,
+          "events": [
+            {
+              "type": "note",
+              "pitch": "G4",
+              "duration": "quarter",
+              "written_pitch": true,
+              "dynamic": "f",
+              "beat": 1
+            },
+            {
+              "type": "rest",
+              "duration": "dotted-half",
+              "beat": 2
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "events": [
+            {
+              "type": "note",
+              "pitch": "G4",
+              "duration": "half",
+              "dynamic": "fp",
+              "beat": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P6",
+      "name": "Trumpet 1, 2 in D",
+      "abbreviation": "Tr.",
+      "instrument": {
+        "name": "Trumpet",
+        "family": "brass",
+        "transposition": "D"
+      },
+      "staff": {
+        "clef": "treble"
+      },
+      "measures": [
+        {
+          "number": 1,
+          "events": [
+            {
+              "type": "note",
+              "pitch": "B4",
+              "duration": "quarter",
+              "written_pitch": true,
+              "dynamic": "f",
+              "beat": 1
+            },
+            {
+              "type": "rest",
+              "duration": "dotted-half",
+              "beat": 2
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "events": [
+            {
+              "type": "note",
+              "pitch": "B4",
+              "duration": "quarter",
+              "dynamic": "f",
+              "beat": 1
+            },
+            {
+              "type": "rest",
+              "duration": "dotted-half",
+              "beat": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P7",
+      "name": "Timpani in A, E",
+      "abbreviation": "Timp.",
+      "instrument": {
+        "name": "Timpani",
+        "family": "percussion",
+        "pitches": [
+          "A2",
+          "E2"
+        ]
+      },
+      "staff": {
+        "clef": "bass"
+      },
+      "measures": [
+        {
+          "number": 1,
+          "events": [
+            {
+              "type": "note",
+              "pitch": "A2",
+              "duration": "quarter",
+              "dynamic": "f",
+              "beat": 1
+            },
+            {
+              "type": "rest",
+              "duration": "dotted-half",
+              "beat": 2
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "events": [
+            {
+              "type": "note",
+              "pitch": "A2",
+              "duration": "quarter",
+              "dynamic": "f",
+              "beat": 1
+            },
+            {
+              "type": "rest",
+              "duration": "dotted-half",
+              "beat": 2
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "events": [
+            {
+              "type": "note",
+              "pitch": "A2",
+              "duration": "quarter",
+              "dynamic": "f",
+              "beat": 1
+            },
+            {
+              "type": "rest",
+              "duration": "dotted-half",
+              "beat": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P8",
+      "name": "Violin I",
+      "abbreviation": "Vl.I",
+      "instrument": {
+        "name": "Violin",
+        "family": "strings"
+      },
+      "staff": {
+        "clef": "treble"
+      },
+      "measures": [
+        {
+          "number": 1,
+          "events": [
+            {
+              "type": "note",
+              "pitch": "E5",
+              "duration": "quarter",
+              "dynamic": "f",
+              "articulation": "staccato",
+              "beat": 1
+            },
+            {
+              "type": "rest",
+              "duration": "dotted-half",
+              "beat": 2
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "events": [
+            {
+              "type": "note",
+              "pitch": "E5",
+              "duration": "quarter",
+              "dynamic": "f",
+              "beat": 1
+            },
+            {
+              "type": "rest",
+              "duration": "quarter",
+              "beat": 2
+            },
+            {
+              "type": "note",
+              "pitch": "E5",
+              "duration": "quarter",
+              "beat": 3
+            },
+            {
+              "type": "rest",
+              "duration": "quarter",
+              "beat": 4
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "events": [
+            {
+              "type": "rest",
+              "duration": "whole",
+              "beat": 1
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "events": [
+            {
+              "type": "note",
+              "pitch": "E5",
+              "duration": "quarter",
+              "dynamic": "f",
+              "beat": 1
+            },
+            {
+              "type": "rest",
+              "duration": "dotted-half",
+              "beat": 2
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "events": [
+            {
+              "type": "note",
+              "pitch": "E5",
+              "duration": "quarter",
+              "beat": 1
+            },
+            {
+              "type": "rest",
+              "duration": "quarter",
+              "beat": 2
+            },
+            {
+              "type": "note",
+              "pitch": "E5",
+              "duration": "quarter",
+              "dynamic": "p",
+              "beat": 3
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "events": [
+            {
+              "type": "note",
+              "pitch": "E5",
+              "duration": "quarter",
+              "dynamic": "f",
+              "beat": 1
+            },
+            {
+              "type": "note",
+              "pitch": "E5",
+              "duration": "eighth",
+              "beat": 2
+            },
+            {
+              "type": "note",
+              "pitch": "E5",
+              "duration": "eighth",
+              "beat": 2.5
+            },
+            {
+              "type": "note",
+              "pitch": "E5",
+              "duration": "half",
+              "dynamic": "p",
+              "beat": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P9",
+      "name": "Violin II",
+      "abbreviation": "Vl.II",
+      "instrument": {
+        "name": "Violin",
+        "family": "strings"
+      },
+      "staff": {
+        "clef": "treble"
+      },
+      "measures": [
+        {
+          "number": 1,
+          "events": [
+            {
+              "type": "note",
+              "pitch": "C#5",
+              "duration": "quarter",
+              "dynamic": "f",
+              "beat": 1
+            },
+            {
+              "type": "rest",
+              "duration": "quarter",
+              "beat": 2
+            },
+            {
+              "type": "note",
+              "pitch": "A4",
+              "duration": "whole",
+              "tie": "start",
+              "dynamic": "p",
+              "beat": 3
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "events": [
+            {
+              "type": "note",
+              "pitch": "C#5",
+              "duration": "quarter",
+              "dynamic": "f",
+              "beat": 1
+            },
+            {
+              "type": "rest",
+              "duration": "quarter",
+              "beat": 2
+            },
+            {
+              "type": "note",
+              "pitch": "B4",
+              "duration": "half",
+              "dynamic": "p",
+              "beat": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P10",
+      "name": "Viola",
+      "abbreviation": "Vla.",
+      "instrument": {
+        "name": "Viola",
+        "family": "strings"
+      },
+      "staff": {
+        "clef": "alto"
+      },
+      "measures": [
+        {
+          "number": 1,
+          "events": [
+            {
+              "type": "note",
+              "pitch": "A3",
+              "duration": "quarter",
+              "dynamic": "f",
+              "beat": 1
+            },
+            {
+              "type": "rest",
+              "duration": "quarter",
+              "beat": 2
+            },
+            {
+              "type": "note",
+              "pitch": "A3",
+              "duration": "whole",
+              "tie": "start",
+              "dynamic": "p",
+              "beat": 3
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "events": [
+            {
+              "type": "note",
+              "pitch": "A3",
+              "duration": "quarter",
+              "dynamic": "f",
+              "beat": 1
+            },
+            {
+              "type": "rest",
+              "duration": "quarter",
+              "beat": 2
+            },
+            {
+              "type": "note",
+              "pitch": "G#3",
+              "duration": "half",
+              "dynamic": "p",
+              "beat": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P11",
+      "name": "Violoncello e Contrabasso",
+      "abbreviation": "Vc.Cb.",
+      "instrument": {
+        "name": "Cello & Double Bass",
+        "family": "strings"
+      },
+      "staff": {
+        "clef": "bass"
+      },
+      "measures": [
+        {
+          "number": 1,
+          "events": [
+            {
+              "type": "note",
+              "pitch": "A2",
+              "duration": "quarter",
+              "dynamic": "f",
+              "beat": 1
+            },
+            {
+              "type": "rest",
+              "duration": "dotted-half",
+              "beat": 2
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "events": [
+            {
+              "type": "note",
+              "pitch": "A2",
+              "duration": "quarter",
+              "dynamic": "f",
+              "beat": 1
+            },
+            {
+              "type": "rest",
+              "duration": "dotted-half",
+              "beat": 2
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "events": [
+            {
+              "type": "note",
+              "pitch": "D3",
+              "duration": "quarter",
+              "beat": 1
+            },
+            {
+              "type": "rest",
+              "duration": "quarter",
+              "beat": 2
+            },
+            {
+              "type": "note",
+              "pitch": "E3",
+              "duration": "half",
+              "dynamic": "fp",
+              "beat": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structure": {
+    "form": "Sonata form with slow introduction",
+    "sections": [
+      {
+        "name": "Introduction",
+        "startMeasure": 1,
+        "endMeasure": 62,
+        "tempo": "Poco sostenuto",
+        "timeSignature": "4/4"
+      },
+      {
+        "name": "Exposition",
+        "startMeasure": 63,
+        "endMeasure": 177,
+        "tempo": "Vivace",
+        "timeSignature": "6/8"
+      },
+      {
+        "name": "Development",
+        "startMeasure": 178,
+        "endMeasure": 278
+      },
+      {
+        "name": "Recapitulation",
+        "startMeasure": 279,
+        "endMeasure": 389
+      },
+      {
+        "name": "Coda",
+        "startMeasure": 390,
+        "endMeasure": 450
+      }
+    ],
+    "totalMeasures": 450
+  },
+  "_dataInfo": {
+    "status": "partial_transcription",
+    "measuresWithNotes": 6,
+    "totalMeasures": 450,
+    "partsWithData": 11,
+    "noteDataIncludes": [
+      "pitch",
+      "duration",
+      "dynamics",
+      "articulations",
+      "ties",
+      "chords",
+      "runs"
+    ],
+    "recommendation": "For complete note-level data, download a MusicXML from MuseScore.com or use OMR software like Audiveris"
+  }
+}
